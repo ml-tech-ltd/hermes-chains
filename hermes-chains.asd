@@ -1,8 +1,11 @@
+(ql-dist:enable (ql-dist:find-dist "ultralisp"))
 (defsystem "hermes-chains"
   :version "0.1.0"
   :author ""
   :license ""
-  :depends-on ()
+  :depends-on (:ciel
+               :hu.dwim.def
+               :ironclad)
   :components ((:module "src"
                 :components
                 ((:file "main"))))
