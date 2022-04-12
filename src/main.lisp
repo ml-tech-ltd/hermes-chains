@@ -1,4 +1,3 @@
-;; (ql:quickload :hermes-chains)
 (defpackage hermes-chains
   (:use #:cl
         #:ciel

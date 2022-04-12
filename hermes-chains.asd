@@ -5,10 +5,13 @@
   :license ""
   :depends-on (:ciel
                :hu.dwim.def
-               :ironclad)
+               :ironclad
+               :cl-intbytes)
   :components ((:module "src"
                 :components
-                ((:file "main"))))
+                ((:file "main")
+                 (:file "wallet")
+                 (:file "block"))))
   :description ""
   :in-order-to ((test-op (test-op "hermes-chains/tests"))))
 
